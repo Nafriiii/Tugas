@@ -27,14 +27,16 @@ app.post('/add', (req, res) => {
     });
 });
 
+// READ
 app.get('/data', (req, res) => {
     const sql = "SELECT * FROM makanan";
     db.query(sql, (err, result) => {
         if (err) return res.status(500).send(err.message);
-        res.json(result);
+        res.json(result);//data json
     });
 });
 
+// UPDATE
 app.put('/update/:id', (req, res) => {
     const id = req.params.id;
     const { nama, jenis, harga } = req.body;
