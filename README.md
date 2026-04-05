@@ -38,7 +38,7 @@
 
 **Pure Node.js** Aplikasi ini dibangun menggunakan Node.js murni tanpa framework tambahan (seperti Express.js). Routing dan penyajian data JSON ditangani langsung menggunakan modul bawaan `http` dan `fs`.<br>
 
-**JQuery & DataTables** jQuery adalah library Javascript yang mempermudah manipulasi DOM. Dalam tugas ini, jQuery digunakan bersama plugin **DataTables** untuk menampilkan, memfilter, dan memanipulasi data mahasiswa dalam bentuk tabel secara dinamis yang bersumber dari API JSON lokal.<br>
+**JQuery & DataTables** jQuery adalah library Javascript yang mempermudah manipulasi DOM. Dalam tugas ini, jQuery digunakan bersama plugin **DataTables** untuk menampilkan, memfilter, dan memanipulasi data dalam bentuk tabel secara dinamis yang bersumber dari API JSON lokal.<br>
 
 ## 2. Struktur Direktori
 Karena menggunakan pendekatan Pure Node.js, aplikasi ini tidak memerlukan folder `node_modules` ataupun instalasi dependency eksternal.
