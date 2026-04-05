@@ -61,11 +61,16 @@ TUGAS
 └── README.md              # Dokumentasi aplikasi
 
 ## 3. LInk rekaman & PPT
-https://drive.google.com/file/d/1KoSEtBqoIF8kWG-uta-75VR9dP5IruJ0/view?usp=sharing
 
-ppt
+### Link Rekaman
+<p>
+  https://drive.google.com/file/d/1KoSEtBqoIF8kWG-uta-75VR9dP5IruJ0/view?usp=sharing
+</p>
+
+### PPT
+<p>
 https://canva.link/vswaw43ftwll5ib
-
+</p>
 ## 4. Output
 
 ### Input Menu
