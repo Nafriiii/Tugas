@@ -41,7 +41,6 @@
 **JQuery & DataTables** jQuery adalah library Javascript yang mempermudah manipulasi DOM. Dalam tugas ini, jQuery digunakan bersama plugin **DataTables** untuk menampilkan, memfilter, dan memanipulasi data dalam bentuk tabel secara dinamis yang bersumber dari API JSON lokal.<br>
 
 ## 2. Struktur Direktori
-Karena menggunakan pendekatan Pure Node.js, aplikasi ini tidak memerlukan folder `node_modules` ataupun instalasi dependency eksternal.
 
 ```text
 TUGAS
@@ -56,3 +55,10 @@ TUGAS
 │
 ├── package.json           # Konfigurasi project
 └── README.md              # Dokumentasi aplikasi
+
+## 3. LInk rekaman & PPT
+rekaman
+https://drive.google.com/file/d/1KoSEtBqoIF8kWG-uta-75VR9dP5IruJ0/view?usp=sharing
+
+ppt
+https://canva.link/vswaw43ftwll5ib
