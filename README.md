@@ -66,12 +66,24 @@ https://drive.google.com/file/d/1KoSEtBqoIF8kWG-uta-75VR9dP5IruJ0/view?usp=shari
 ppt
 https://canva.link/vswaw43ftwll5ib
 
-##  4. Output
-input menu
-<img src="asset/input.png">
-daftar menu
-<img src="asset/daftar.png">
-edit 
-<img src="asset/edit.png" >
-delete 
-<img src="asset/delete.png" >
+## 4. Output
+
+### Input Menu
+<p align="center">
+  <img src="asset/input.png">
+</p>
+
+### Daftar Menu
+<p align="center">
+  <img src="asset/daftar.png">
+</p>
+
+### Edit
+<p align="center">
+  <img src="asset/edit.png">
+</p>
+
+### Delete
+<p align="center">
+  <img src="asset/delete.png">
+</p>
