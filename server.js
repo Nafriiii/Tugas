@@ -4,13 +4,11 @@ const db = require('./db');
 const path = require('path');
 const cors = require('cors');
 
-// Middleware
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
-// ================== ROUTE HALAMAN ==================
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'form.html'));
 });
@@ -18,8 +16,6 @@ app.get('/', (req, res) => {
 app.get('/table', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'table.html'));
 });
-
-// ================== CRUD API ==================
 
 // CREATE
 app.post('/add', (req, res) => {
@@ -31,7 +27,6 @@ app.post('/add', (req, res) => {
     });
 });
 
-// READ
 app.get('/data', (req, res) => {
     const sql = "SELECT * FROM makanan";
     db.query(sql, (err, result) => {
@@ -40,7 +35,6 @@ app.get('/data', (req, res) => {
     });
 });
 
-// UPDATE
 app.put('/update/:id', (req, res) => {
     const id = req.params.id;
     const { nama, jenis, harga } = req.body;
